@@ -1,0 +1,10 @@
+### Health Check
+GET http://localhost:3000/health
+
+### Metrics
+GET http://localhost:3000/metrics
+Authorization: Bearer YOUR_ACCESS_TOKEN 
+
+### Monitoring
+GET http://localhost:3000/monitoring/logs
+Authorization: Bearer YOUR_ACCESS_TOKEN 

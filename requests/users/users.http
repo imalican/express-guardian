@@ -1,0 +1,21 @@
+### Get Users List
+GET http://localhost:3000/api/v1/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzZhMDE4YTQxODdjNDM1NjViZmRhZTEiLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzM1MDAwNDYzLCJleHAiOjE3MzUwMDEzNjN9.o0jk8TFrAroPZJwYLsUWTNR9d4RoRiojGsdzPwp-Ppk
+
+### Get User by ID
+GET http://localhost:3000/api/v1/users/676a018a4187c43565bfdae1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzZhMDE4YTQxODdjNDM1NjViZmRhZTEiLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzM1MDAwNDYzLCJleHAiOjE3MzUwMDEzNjN9.o0jk8TFrAroPZJwYLsUWTNR9d4RoRiojGsdzPwp-Ppk
+
+### Update User
+PATCH http://localhost:3000/api/v1/users/676a018a4187c43565bfdae1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzZhMDE4YTQxODdjNDM1NjViZmRhZTEiLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzM1MDAwNDYzLCJleHAiOjE3MzUwMDEzNjN9.o0jk8TFrAroPZJwYLsUWTNR9d4RoRiojGsdzPwp-Ppk
+Content-Type: application/json
+
+{
+  "firstName": "Updated",
+  "lastName": "Name"
+}
+
+### Delete User
+DELETE http://localhost:3000/api/v1/users/676a018a4187c43565bfdae1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzZhMDE4YTQxODdjNDM1NjViZmRhZTEiLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzM1MDAwNDYzLCJleHAiOjE3MzUwMDEzNjN9.o0jk8TFrAroPZJwYLsUWTNR9d4RoRiojGsdzPwp-Ppk
